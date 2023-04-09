@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.header img {
+    padding-top: 110px;
+}
+
+.history {
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px 350px;
+}
+
+.history h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.history p {
+    font-size: 17px;
+    padding-top: 8px;
+    color: hsl(201, 11%, 66%);
+}
+.one{
+    background-color: hsl(171, 66%, 44%);
+    float: right;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 3px hsl(171, 66%, 30%);
+}
+.two{
+    float: left;
+    background-color: hsl(233, 100%, 69%);
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 3px hsl(233, 100%, 60%);
+}
+.one:hover {
+    padding:10px 40px;
+}
+.two:hover{
+    padding:10px 40px;
+}
+.track{
+    padding-top: 120px;
+}
+.section h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.section p{
+    font-size: 17px;
+    padding-top: 8px;
+    color: hsl(201, 11%, 66%);
+}
+.computer{
+    float: left;
+    padding: 10px 50px;
+}
+.search{
+    width: 500em;
+    padding-top: 40px;
+}
+.access{
+    text-align: center;
+}
+.access h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.access p{
+    font-size: 17px;
+    padding-top: 8px;
+    color: hsl(201, 11%, 66%); 
+}
+.workflow{
+    text-align: center;
+}
+.workflow h3{
+     font-size: 35px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.workflow p{
+    font-size: 17px;
+    padding-top: 8px;
+    color: hsl(201, 11%, 66%);
+}
+section{
+    display: flex;
+    gap: 95px;
+}
+section img{
+    padding-left: 8px;
+    padding-top:90px;
+}
+.clipboard{
+    padding-top: 70px;
+}
+.footer{
+    background-color: hsl(201, 11%, 92%);
+}
+footer{
+    display: flex;
+    gap: 55px;
+    line-height: 40px;
+}
+footer ul{
+    list-style: none;
+}
+footer .end{
+    display: flex;
+    float: right;
+    gap: 35px;
+    padding: 10px 90px;
+}
+@media only screen and (max-width: 992px) {
+    body{
+        text-align: center;
+    }
+    .header {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+    .history{
+        margin: 0px 20px;
+    }
+    .history h3 {
+        font-size:28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+        margin: 0px 30px;
+    }
+    .history p {
+        font-size: 15px;
+        padding-top: 12px;
+        color: hsl(201, 11%, 66%);
+        margin: 0px 20px;
+    }
+    .one{
+        float: none;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 10px 30%;
+    }
+    .two{
+        float: none;
+        padding: 10px 30%;
+    }
+    section{
+        display: block;
+    }
+    .access{
+        padding-top: 80px;
+    }
+    .access img{
+        width: 350px;
+        height: 320px;
+    }
+    .workflow{
+        padding-top: 70px;
+    }
+    .workflow p{
+        font-size: 15px;
+        padding-top: 12px;
+        color: hsl(201, 11%, 66%);
+        margin: 0px 20px;
+    }
+    .workflow h3{
+        font-size:28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+        margin: 0px 30px;
+    }
+    .search p{
+        font-size: 15px;
+        padding-top: 12px;
+        color: hsl(201, 11%, 66%);
+        margin: 0px 20px;
+    }
+    .search h3{
+        font-size:28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+        margin: 0px 30px;
+    }
+    .computer img{
+        width: 350px;
+        height: 320px;
+    }
+    footer{
+        display: block;
+        text-align: center;
+        height: 380px;
+    }
+}
